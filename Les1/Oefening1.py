@@ -4,9 +4,6 @@
 # Gebruik bij het afprinten de + operator en probeer daarna ook eens zonder de + operator.
 
 
-
-
-
 Familienaam = input("Geef je Familienaam: ")
 Voornaam = input("Geef je Voornaam: ")
 Straat = input("Geef je Straat: ")
