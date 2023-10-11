@@ -9,5 +9,4 @@ b = ""
 for i in range(aantal):
     b = b + a
     print(b)
-    print(b)
-    
+    print(b) 
