@@ -19,4 +19,8 @@ if len(student_lijst) > 0:
     for i in range (len(student_afstand)):
         print(student_afstand[i], student_lijst[i])
     print(student_lijst[verste], "woont het verst, namelijk", max(student_afstand))
+<<<<<<< HEAD
     print("De gemiddelde afstand is", (sum(student_afstand)/2))
+=======
+    print("De gemiddelde aftand is", (sum(student_afstand)/2))
+>>>>>>> b904064fc67942099ee166c0c7bd97f75b828ae3

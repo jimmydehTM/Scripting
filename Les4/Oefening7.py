@@ -9,5 +9,9 @@ for i in range(len(lijst) - 1):
                 break
             x += 1
 
+<<<<<<< HEAD
 print(lijst)
 
+=======
+print(lijst)
+>>>>>>> b904064fc67942099ee166c0c7bd97f75b828ae3
