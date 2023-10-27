@@ -1,9 +1,17 @@
-# ingave = input("Geef een string: ")
+ingave = input("Geef een string: ")
 
-ingave = "xxxhhgggggj"
-i = 0
-while i < len(ingave):
-    lol = ingave.count(ingave[i])
-    i+=1
 
-print(lol)
+aantal = 1
+tussentijds = 1
+
+for i in range(1, len(ingave)):
+    if (ingave[i] == ingave[i - 1]):
+        tussentijds += 1
+    else:
+        aantal = max(aantal, tussentijds)
+        tussentijds = 1
+ 
+    aantal = max(aantal, tussentijds)
+ 
+ 
+print("De lengte van het grootste blok is", aantal)
